@@ -1,0 +1,24 @@
+oi
+
+// alt + z - quebra de texto
+<p> e </p>
+
+// shift + alf + f - formatar
+
+body -  textos com parágrafos
+text - textos longos
+
+// <b> - para colocar em negrito
+<br> - quebra de linha
+<i> - itálico
+<strong> - tipo um negrito
+<mark> - marcador
+del - riscado
+ins - sublinhado
+sup - texto em cima
+sub - texto embaixo
+<!----> ou ctrl + ;
+hr - linha de divisao
+img src - colar o endereço de imagem
+width - largura
+height - altura
