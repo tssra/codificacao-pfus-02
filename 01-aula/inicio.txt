@@ -31,8 +31,11 @@ li - são os itens da lista
 ul - coloca pontos (não ordenada)
 type A - ordenada em ordem alfabética
 type I - em algarismos romanos
+
+tabela:
 tr -coluna
 th - linha - título
 td - linha normal
 colspan - quantas colunas vai ocupar
 rowspan - quantas linhas vai ocupar
+<
