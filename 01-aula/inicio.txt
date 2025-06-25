@@ -39,3 +39,8 @@ td - linha normal
 colspan - quantas colunas vai ocupar
 rowspan - quantas linhas vai ocupar
 <
+
+
+header - em cima
+main - meio
+footer - rodapé
