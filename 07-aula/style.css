@@ -1,4 +1,4 @@
-body{
+ body{
     background-color: honeydew;
     padding: 0px;
     margin: 0px;
@@ -7,9 +7,19 @@ body{
 #principal{
     width: 90%;
     height: 400px;
-    /* background-color: aquamarine; */
+     background-color: rgb(202, 202, 202); 
     margin: auto;
-    background-image: url("https://i.pinimg.com/736x/19/f7/62/19f762d980800e85ca5353a77a18540a.jpg");
-    background-size: cover;
+    background-image: linear-gradient(rgb(204, 143, 28), black. rgb(240, 164, 2) );
+}
+
+#secundário{
+width: 90%;
+height: 400px;
+ background-image: url("https://i.pinimg.com/736x/19/f7/62/19f762d980800e85ca5353a77a18540a.jpg"); 
+ margin: auto;
+ background-repeat: repeat-x;
+ background-attachment: scroll;
+ background-color: antiquewhite;
+ background-position: 50%;
 }
 
