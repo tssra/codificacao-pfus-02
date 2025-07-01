@@ -1,3 +1,5 @@
+
+
 body{
     background-color: lightcoral;
     color: white;
@@ -45,4 +47,18 @@ h1{
 
 #decorado{
     text-decoration: overline underline;
+}
+
+#outra-fonte{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'ceveat';
+    src: url("./fontes/Caveat-VariableFont_wght.ttf");
+}
+
+#personalizada{
+   font-family: 'ceveat', sans-serif ;
+
 }

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  background-color: rgb(253, 237, 231);
+}
+
+header {
+  background-color: rgb(237, 214, 206);
+}
+
+footer {
+  background-color: rgb(237, 214, 206);
+}
+
+div {
+  display: inline-block;
+}
+
+#text1img {
+    display: block;
+}
+
+#text1 {
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  font-size: 27px;
+}
+
+#img1 {
+  display: inline-block;
+  width: 50%;
+}
+
+/* #tres{
+
+} */
+
+#ella{
+    width: 406px;
+    height: 406px;
+    margin: 50% ;
+}
+
+#heart{
+    width: 406px;
+    height: 406px;
+    margin: 50%;
+}
+
+input{
+    background-color: rgb(217, 185, 180);
+}
+
+nav{
+    display: inline-block;
+}
+
+/* @font-face{
+     
+} */
