@@ -1,0 +1,111 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: lightpink;
+}
+
+#navegacao {
+  width: 80%;
+  background-color: lightcoral;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  overflow: hidden;
+  /* deixa os bglh auto */
+}
+
+.simbolo {
+  color: black;
+  font-size: 40px;
+}
+
+#item-menu {
+  list-style: none;
+  /* serve para tirar os pontos/bolinha */
+  float: right;
+  /* ele pega a coisa e flutua ela para a direita */
+}
+
+li {
+  display: inline-block;
+  /* deixa todos na mesma linha e faz a função do block */
+  /* display: block; */
+  /* ele cria uma caixinha em volta do negócio e sempre quer preencher 100% do tamanho da tela */
+  margin-left: 15px;
+  padding: 5px;
+}
+
+li:hover {
+  color: black;
+  background-color: antiquewhite;
+  cursor: pointer;
+  /* esse cursor serve para colocar a mãozinha */
+  border-radius: 15px;
+  transform: scaleX(1.2);
+  /* tem como colocar pra aumentar em X e Y */
+}
+
+#logo {
+  float: left;
+}
+
+@media screen and (max-width: 850px) {
+  body {
+    background-color: lightcoral;
+  }
+
+  #navegacao {
+    width: 90%;
+    background-color: lightpink;
+    padding: 5px;
+  }
+
+  #logo {
+    font-size: 28px;
+    float: none;
+    text-align: center;
+  }
+
+  .simbolo {
+    font-size: 30px;
+  }
+
+  #item-menu{
+    float: none;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 7px;
+  }
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background-color: rgb(255, 198, 175);
+    }
+    #navegacao{
+        width: 100%;
+        background-color: rgb(228, 117, 134);
+        padding: 5px;
+    }
+    #logo{
+        font-size: 40px;
+        text-align: center;
+    }
+    .simbolo{
+        font-size: 50px;
+        float: none;
+    }
+    li{
+        display: block;
+        width: 50%;
+        margin-top:5px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 25px;
+    }
+}
