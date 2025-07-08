@@ -6,35 +6,59 @@ body {
 
 header {
   background-color: rgb(237, 214, 206);
+  position: sticky;
+  top: 0px;
+  text-align: center;
 }
 
-footer {
-  background-color: rgb(237, 214, 206);
+nav{
+    display: inline-block;
 }
 
-div {
+#domenu{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  font-size: 26px;
+  /* overflow: hidden; */
+}
+
+#itensdomenu{
+  list-style: none;
+}
+
+/* falta colocar um em cada canto */
+
+li{
   display: inline-block;
+  padding: 5px;
 }
 
-#text1img {
-    display: block;
+li:hover{
+color: white;
+background-color: lightgray;
+cursor: pointer;
+border-radius: 15px;
+transform: scaleX(1.0);
+}
+
+/* tem que mexer agora em levar eles para tal lugar */
+
+h1{
+ text-align: left; 
 }
 
 #text1 {
   display: inline-block;
   width: 50%;
   text-align: left;
-  font-size: 27px;
+  font-size: 25px;
 }
 
-#img1 {
-  display: inline-block;
-  width: 50%;
+#daimg{
+  
 }
-
-/* #tres{
-
-} */
 
 #ella{
     width: 406px;
@@ -52,10 +76,6 @@ input{
     background-color: rgb(217, 185, 180);
 }
 
-nav{
-    display: inline-block;
+footer {
+  background-color: rgb(237, 214, 206);
 }
-
-/* @font-face{
-     
-} */

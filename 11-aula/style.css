@@ -7,6 +7,11 @@ body {
   background-color: lightpink;
 }
 
+header{
+  position: sticky;
+  top: 0px;
+}
+
 #navegacao {
   width: 80%;
   background-color: lightcoral;
@@ -16,7 +21,9 @@ body {
   color: white;
   font-size: 20px;
   overflow: hidden;
-  /* deixa os bglh auto */
+  /* deixa os bglh automáticos */
+  position: sticky;
+  top: 0px;
 }
 
 .simbolo {
@@ -54,6 +61,67 @@ li:hover {
   float: left;
 }
 
+main {
+  background-color: rgb(243, 182, 191);
+  height: 2000px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 15px;
+  font-size: 22px;
+  color: white;
+}
+
+/* primeiro bloco do texto bones */
+#bloco {
+  background-color: rgb(243, 190, 190);
+  height: 200px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  margin-top: 20px;
+}
+
+/* div grande que abriga os miniblocos */
+#linha-bloco {
+  background-color: rgb(243, 190, 190);
+  margin-top: 10px;
+  text-align: center;
+  color: black;
+  font-weight: 900;
+  padding: 10px;
+  text-align: center;
+}
+
+/* bloquinhos */
+.mini-bloco {
+  background-color: rgb(255, 196, 216);
+  width: 30%;
+  margin-top: 5px;
+  display: inline-block;
+  height: 200px;
+  line-height: 200px;
+}
+
+/*terceira divão*/
+#linha {
+  background-color: rgb(243, 190, 190);
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* os blocos linhas */
+.mini-linha {
+  background-color: rgb(255, 196, 216);
+  margin-top: 5px;
+  height: 200px;
+  line-height: 200px;
+  width: 50%;
+  display: inline;
+}
+
 @media screen and (max-width: 850px) {
   body {
     background-color: lightcoral;
@@ -75,7 +143,7 @@ li:hover {
     font-size: 30px;
   }
 
-  #item-menu{
+  #item-menu {
     float: none;
     text-align: center;
     font-size: 25px;
@@ -83,29 +151,45 @@ li:hover {
   }
 }
 
-@media screen and (max-width: 500px){
-    body{
-        background-color: rgb(255, 198, 175);
-    }
-    #navegacao{
-        width: 100%;
-        background-color: rgb(228, 117, 134);
-        padding: 5px;
-    }
-    #logo{
-        font-size: 40px;
-        text-align: center;
-    }
-    .simbolo{
-        font-size: 50px;
-        float: none;
-    }
-    li{
-        display: block;
-        width: 50%;
-        margin-top:5px;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 25px;
-    }
+@media screen and (max-width: 500px) {
+  body {
+    background-color: rgb(255, 198, 175);
+  }
+  #navegacao {
+    width: 100%;
+    background-color: rgb(228, 117, 134);
+    padding: 5px;
+  }
+  #logo {
+    font-size: 40px;
+    text-align: center;
+  }
+  .simbolo {
+    font-size: 50px;
+    float: none;
+  }
+  li {
+    display: block;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+  }
+
+main{
+width: 100%;
+padding: 0px;
+}
+
+.mini-bloco{
+width: 80%;
+font-size: 26px;
+}
+
+.mini-linha{
+  font-size: 20px;
+  line-height: 100px;
+}
+
 }
