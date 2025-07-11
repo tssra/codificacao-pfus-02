@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 body {
   background-color: rgb(253, 237, 231);
 }
 
+/* conf do menu/header */
 header {
   background-color: rgb(237, 214, 206);
   position: sticky;
@@ -11,71 +12,105 @@ header {
   text-align: center;
 }
 
-nav{
-    display: inline-block;
+nav {
+  display: inline-block;
 }
 
-#domenu{
+#domenu {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding: 0px;
-  font-size: 26px;
-  /* overflow: hidden; */
+  font-size: 24px;
 }
 
-#itensdomenu{
+ul {
   list-style: none;
 }
 
-/* falta colocar um em cada canto */
-
-li{
+li {
   display: inline-block;
   padding: 5px;
 }
 
-li:hover{
-color: white;
-background-color: lightgray;
-cursor: pointer;
-border-radius: 15px;
-transform: scaleX(1.0);
+li:hover {
+  color: white;
+  background-color: lightpink;
+  cursor: pointer;
+  border-radius: 15px;
+  transform: scaleX(1);
 }
 
-/* tem que mexer agora em levar eles para tal lugar */
-
-h1{
- text-align: left; 
+h1 {
+  text-align: center;
 }
 
+/* div grande 1 */
+#divum {
+  display: inline-block;
+}
+
+/* div do texto1 */
 #text1 {
   display: inline-block;
   width: 50%;
+  font-size: 23px;
+  text-align: center;
+}
+/* o texto tem que estar mais pra cima */
+
+/* div da primeira img */
+#imgbig {
+  padding: 35px;
+  margin: auto;
+  display: inline-block;
+}
+
+#albs {
+  display: inline-block;
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#alb-ella {
+  width: 300px;
+  height: 300px;
+  margin-right: 400px;
+  margin-left: 300px;
+  display: inline-block;
   text-align: left;
-  font-size: 25px;
 }
 
-#daimg{
-  
+#heart {
+  width: 300px;
+  height: 300px;
+  margin-left: 100px;
+  display: inline-block;
 }
 
-#ella{
-    width: 406px;
-    height: 406px;
-    margin: 50% ;
+#imgm{
+margin-top: 100px;
+display: inline-block;
 }
 
-#heart{
-    width: 406px;
-    height: 406px;
-    margin: 50%;
+#daella{
+  display: inline-block;
 }
 
-input{
-    background-color: rgb(217, 185, 180);
+#doheart{
+display: inline-block;
+}
+
+input {
+  background-color: rgb(217, 185, 180);
 }
 
 footer {
   background-color: rgb(237, 214, 206);
+}
+
+.pfinal{
+  text-align: center;
 }
